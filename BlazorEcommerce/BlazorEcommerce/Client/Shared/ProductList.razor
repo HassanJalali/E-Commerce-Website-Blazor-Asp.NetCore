@@ -1,2 +1,31 @@
-﻿<h3>ProductList</h3>
+﻿@inject HttpClient http
+
+@if (Products == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var products in Products)
+            {
+                <tr>
+                    <td>@products.Id</td>
+                    <td>@products.Title</td>
+                    <td>@products.Description</td>
+                    <td>@products.Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
 
