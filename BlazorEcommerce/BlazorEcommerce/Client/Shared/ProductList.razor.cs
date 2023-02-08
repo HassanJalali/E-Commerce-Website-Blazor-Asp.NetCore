@@ -16,8 +16,11 @@ namespace BlazorEcommerce.Client.Shared
         }
         private async Task GetProduct()
         {
-            Products = await http.GetFromJsonAsync<List<Product>>("api/Product");
-        }
-
+            var result = await http.GetFromJsonAsync<ServiceResponse<List<Product>>>("api/Product");
+            if(result != null && result.Data != null)
+            {
+                Products = result.Data;
+            }           
+        } 
     }
 }
