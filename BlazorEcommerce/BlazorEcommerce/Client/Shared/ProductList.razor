@@ -1,31 +1,31 @@
 ﻿@inject HttpClient http
 
-@if (Products == null)
+@if (productService.Products == null || productService.Products.Count == 0)
 {
-    <p><em>Loading...</em></p>
+    <p>Loading Products...</p>
 }
 else
 {
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Title</th>
-                <th>Description</th>
-                <th>Price</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var products in Products)
-            {
-                <tr>
-                    <td>@products.Id</td>
-                    <td>@products.Title</td>
-                    <td>@products.Description</td>
-                    <td>@products.Price</td>
-                </tr>
-            }
-        </tbody>
-    </table>
+       <ul class="list-unstyled">
+        @foreach (var product in productService.Products)
+        {
+            <li class="media my-3">
+                <div class="media-img-wrapper mr-2">
+                    <a href="#">
+                        <img class="media-img" src="@product.ImageUrl" alt="@product.Title" />
+                    </a>
+                </div>
+                <div class="media-body">
+                    <a href="#">
+                        <h4 class="mb-0">@product.Title</h4>
+                    </a>
+                    <p>@product.Description</p>
+                    <h5 class="price">
+                        $@product.Price
+                    </h5>
+                </div>
+            </li>
+        }
+    </ul>
 }
 

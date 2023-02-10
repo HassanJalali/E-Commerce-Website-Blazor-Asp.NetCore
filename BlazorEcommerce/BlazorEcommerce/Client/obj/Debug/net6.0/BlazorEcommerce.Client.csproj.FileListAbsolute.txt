@@ -814,6 +814,7 @@ C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\scopedcss\Shared\ProductList.razor.rz.scp.css
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\scopedcss\bundle\BlazorEcommerce.Client.styles.css
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\scopedcss\projectbundle\BlazorEcommerce.Client.bundle.scp.css
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\BlazorEcommerce.Client.csproj.CopyComplete
@@ -821,4 +822,3 @@ C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\refint\BlazorEcommerce.Client.dll
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\BlazorEcommerce.Client.pdb
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\ref\BlazorEcommerce.Client.dll
-C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\scopedcss\Shared\ProductList.razor.rz.scp.css
