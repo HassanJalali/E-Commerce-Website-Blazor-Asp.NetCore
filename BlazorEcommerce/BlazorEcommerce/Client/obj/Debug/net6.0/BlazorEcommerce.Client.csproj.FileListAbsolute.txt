@@ -822,3 +822,4 @@ C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\refint\BlazorEcommerce.Client.dll
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\BlazorEcommerce.Client.pdb
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\ref\BlazorEcommerce.Client.dll
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Client\obj\Debug\net6.0\scopedcss\Pages\ProductDetails.razor.rz.scp.css
