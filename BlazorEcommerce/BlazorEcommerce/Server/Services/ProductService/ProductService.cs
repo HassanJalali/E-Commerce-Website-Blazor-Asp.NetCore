@@ -15,9 +15,9 @@ namespace BlazorEcommerce.Server.Services.ProductService
         {
             var response = new ServiceResponse<Product>();
             var product = await _context.Products.FindAsync(productId);
-            if(product == null)
+            if (product == null)
             {
-                response.Success = false;                        
+                response.Success = false;
                 response.Message = "Sorry, but this product does not exist.";
             }
             else
@@ -26,7 +26,7 @@ namespace BlazorEcommerce.Server.Services.ProductService
             }
 
             return response;
-    }
+        }
 
         public async Task<ServiceResponse<List<Product>>> GetProductsAsync()
         {
@@ -36,5 +36,15 @@ namespace BlazorEcommerce.Server.Services.ProductService
             };
             return response;
         }
+
+        public async Task<ServiceResponse<List<Product>>> GetProductsBycategoryAsync(string categoryUrl)
+        {
+            var response = new ServiceResponse<List<Product>>()
+            {
+                Data = await _context.Products.Where(p => p.Category.Url.Equals(categoryUrl)).ToListAsync()
+            };
+            return response;
+        }
+
     }
 }

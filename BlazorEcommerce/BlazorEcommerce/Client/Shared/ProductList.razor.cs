@@ -3,7 +3,7 @@ using BlazorEcommerce.Shared;
 using Microsoft.AspNetCore.Components;
 using System;
 using System.Net.Http.Json;
-
+using System.Runtime.InteropServices;
 
 namespace BlazorEcommerce.Client.Shared
 {
@@ -11,10 +11,13 @@ namespace BlazorEcommerce.Client.Shared
     {
         [Inject]
         private IProductService productService { get; set; }
-
-        protected override async Task OnInitializedAsync()
+        protected override void OnInitialized()
         {
-            await productService.GetProducts();
+            productService.ProductsChanged += StateHasChanged;
+        }
+        public void Dispose()
+        {
+            productService.ProductsChanged -= StateHasChanged;
         }
 
     }
