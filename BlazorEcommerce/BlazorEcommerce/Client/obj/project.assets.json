@@ -541,6 +541,16 @@
         "runtime": {
           "bin/placeholder/BlazorEcommerce.Shared.dll": {}
         }
+      },
+      "Framework.Front/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Framework.Front.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.Front.dll": {}
+        }
       }
     },
     "net6.0/browser-wasm": {
@@ -1076,6 +1086,16 @@
         },
         "runtime": {
           "bin/placeholder/BlazorEcommerce.Shared.dll": {}
+        }
+      },
+      "Framework.Front/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Framework.Front.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.Front.dll": {}
         }
       }
     }
@@ -1910,11 +1930,17 @@
       "type": "project",
       "path": "../Shared/BlazorEcommerce.Shared.csproj",
       "msbuildProject": "../Shared/BlazorEcommerce.Shared.csproj"
+    },
+    "Framework.Front/1.0.0": {
+      "type": "project",
+      "path": "../Framework.Front/Framework.Front.csproj",
+      "msbuildProject": "../Framework.Front/Framework.Front.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "BlazorEcommerce.Shared >= 1.0.0",
+      "Framework.Front >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.10",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.10",
       "Syncfusion.Blazor.Core >= 20.4.0.50"
@@ -1951,6 +1977,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\macbook\\Desktop\\BlazorEcommerce\\BlazorEcommerce\\BlazorEcommerce\\Framework.Front\\Framework.Front.csproj": {
+              "projectPath": "C:\\Users\\macbook\\Desktop\\BlazorEcommerce\\BlazorEcommerce\\BlazorEcommerce\\Framework.Front\\Framework.Front.csproj"
+            },
             "C:\\Users\\macbook\\Desktop\\BlazorEcommerce\\BlazorEcommerce\\BlazorEcommerce\\Shared\\BlazorEcommerce.Shared.csproj": {
               "projectPath": "C:\\Users\\macbook\\Desktop\\BlazorEcommerce\\BlazorEcommerce\\BlazorEcommerce\\Shared\\BlazorEcommerce.Shared.csproj"
             }

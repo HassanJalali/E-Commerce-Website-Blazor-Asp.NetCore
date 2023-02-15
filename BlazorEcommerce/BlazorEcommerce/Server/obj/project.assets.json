@@ -1587,6 +1587,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "BlazorEcommerce.Shared": "1.0.0",
+          "Framework.Front": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.10",
           "Syncfusion.Blazor.Core": "20.4.0.50"
         },
@@ -1605,6 +1606,16 @@
         },
         "runtime": {
           "bin/placeholder/BlazorEcommerce.Shared.dll": {}
+        }
+      },
+      "Framework.Front/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Framework.Front.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.Front.dll": {}
         }
       }
     }
@@ -4698,6 +4709,11 @@
       "type": "project",
       "path": "../Shared/BlazorEcommerce.Shared.csproj",
       "msbuildProject": "../Shared/BlazorEcommerce.Shared.csproj"
+    },
+    "Framework.Front/1.0.0": {
+      "type": "project",
+      "path": "../Framework.Front/Framework.Front.csproj",
+      "msbuildProject": "../Framework.Front/Framework.Front.csproj"
     }
   },
   "projectFileDependencyGroups": {
