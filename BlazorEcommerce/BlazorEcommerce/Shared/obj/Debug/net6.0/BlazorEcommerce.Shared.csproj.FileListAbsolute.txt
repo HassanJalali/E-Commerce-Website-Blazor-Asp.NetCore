@@ -10,3 +10,6 @@ C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Shared\
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net6.0\refint\BlazorEcommerce.Shared.dll
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net6.0\BlazorEcommerce.Shared.pdb
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net6.0\ref\BlazorEcommerce.Shared.dll
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Shared\bin\Debug\net6.0\Framework.Front.dll
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Shared\bin\Debug\net6.0\Framework.Front.pdb
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Shared\obj\Debug\net6.0\BlazorEcommerce.Shared.csproj.CopyComplete

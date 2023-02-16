@@ -281,7 +281,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\macbook\\Desktop\\BlazorEcommerce\\BlazorEcommerce\\BlazorEcommerce\\Framework.Front\\Framework.Front.csproj": {
+                "projectPath": "C:\\Users\\macbook\\Desktop\\BlazorEcommerce\\BlazorEcommerce\\BlazorEcommerce\\Framework.Front\\Framework.Front.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

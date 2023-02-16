@@ -1,4 +1,5 @@
 ﻿using BlazorEcommerce.Shared;
+using Framework.Front.Services;
 using System.Net.Http.Json;
 
 namespace BlazorEcommerce.Client.Services.ProductService
@@ -6,10 +7,12 @@ namespace BlazorEcommerce.Client.Services.ProductService
     public class ProductService : IProductService
     {
         private readonly HttpClient _httpClient;
+        private readonly IHttpService _httpService;
 
-        public ProductService(HttpClient httpClient)
+        public ProductService(HttpClient httpClient, IHttpService httpService)
         {
             _httpClient = httpClient;
+            _httpService = httpService;
         }
 
         public List<Product> Products { get; set; } = new List<Product>();
@@ -25,9 +28,14 @@ namespace BlazorEcommerce.Client.Services.ProductService
 
         public async Task GetProducts(string? categoryUrl = null)
         {
+
             var result = categoryUrl == null ?
-                await _httpClient.GetFromJsonAsync<ServiceResponse<List<Product>>>("api/product") :
-                await _httpClient.GetFromJsonAsync<ServiceResponse<List<Product>>>($"api/product/{categoryUrl}");
+                //await _httpClient.GetFromJsonAsync<ServiceResponse<List<Product>>>("api/product") :
+                //await _httpClient.GetFromJsonAsync<ServiceResponse<List<Product>>>($"api/product/{categoryUrl}");
+
+            await _httpService.Get<ServiceResponse<List<Product>>>("api/product") :
+                await _httpService.Get<ServiceResponse<List<Product>>>($"api/product/{categoryUrl}");
+
             if (result != null && result.Data != null)
             {
                 Products = result.Data;

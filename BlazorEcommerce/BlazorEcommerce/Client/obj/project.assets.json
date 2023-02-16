@@ -554,6 +554,9 @@
       "BlazorEcommerce.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Framework.Front": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BlazorEcommerce.Shared.dll": {}
         },
@@ -1119,6 +1122,9 @@
       "BlazorEcommerce.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Framework.Front": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BlazorEcommerce.Shared.dll": {}
         },

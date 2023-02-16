@@ -949,6 +949,9 @@
         }
       },
       "BlazorEcommerce.Shared/1.0.0": {
+        "dependencies": {
+          "Framework.Front": "1.0.0"
+        },
         "runtime": {
           "BlazorEcommerce.Shared.dll": {}
         }

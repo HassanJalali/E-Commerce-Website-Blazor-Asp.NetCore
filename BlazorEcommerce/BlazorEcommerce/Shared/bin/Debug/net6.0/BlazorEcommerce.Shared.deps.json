@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "BlazorEcommerce.Shared/1.0.0": {
+        "dependencies": {
+          "Framework.Front": "1.0.0"
+        },
         "runtime": {
           "BlazorEcommerce.Shared.dll": {}
+        }
+      },
+      "Framework.Front/1.0.0": {
+        "runtime": {
+          "Framework.Front.dll": {}
         }
       }
     }
   },
   "libraries": {
     "BlazorEcommerce.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Framework.Front/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
