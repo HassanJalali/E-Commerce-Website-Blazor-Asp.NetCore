@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Y+h7JFFQKaj1p37D4IcdfVSn/vkQLJLLgMNnStimdILMDy+FwoU5d30Mz/hfKUI5CX0S0LQZvsf7tdxiQesC/g==",
+  "dgSpecHash": "UTk0csW+WyNRlMUAojrh6dzm3qhwu8xLSLsNJniZLZEun+wDMNWpI/hmTpCv21YunGsrwtCNmlZOnEO/X7U6TA==",
   "success": true,
   "projectFilePath": "C:\\Users\\macbook\\Desktop\\BlazorEcommerce\\BlazorEcommerce\\BlazorEcommerce\\Server\\BlazorEcommerce.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\macbook\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\macbook\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.4.0\\currietechnologies.razor.sweetalert2.5.4.0.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\microsoft.aspnetcore.components.6.0.10.nupkg.sha512",

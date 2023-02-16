@@ -1,0 +1,12 @@
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Framework.Front\bin\Debug\net6.0\Framework.Front.deps.json
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Framework.Front\bin\Debug\net6.0\Framework.Front.dll
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Framework.Front\bin\Debug\net6.0\Framework.Front.pdb
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Framework.Front\obj\Debug\net6.0\Framework.Front.csproj.AssemblyReference.cache
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Framework.Front\obj\Debug\net6.0\Framework.Front.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Framework.Front\obj\Debug\net6.0\Framework.Front.AssemblyInfoInputs.cache
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Framework.Front\obj\Debug\net6.0\Framework.Front.AssemblyInfo.cs
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Framework.Front\obj\Debug\net6.0\Framework.Front.csproj.CoreCompileInputs.cache
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Framework.Front\obj\Debug\net6.0\Framework.Front.dll
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Framework.Front\obj\Debug\net6.0\refint\Framework.Front.dll
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Framework.Front\obj\Debug\net6.0\Framework.Front.pdb
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Framework.Front\obj\Debug\net6.0\ref\Framework.Front.dll

@@ -104,3 +104,8 @@ C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Server\
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Server\obj\Debug\net6.0\BlazorEcommerce.Server.pdb
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Server\obj\Debug\net6.0\BlazorEcommerce.Server.genruntimeconfig.cache
 C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Server\obj\Debug\net6.0\ref\BlazorEcommerce.Server.dll
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\CurrieTechnologies.Razor.SweetAlert2.dll
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Syncfusion.Blazor.Core.dll
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Syncfusion.Licensing.dll
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Framework.Front.dll
+C:\Users\macbook\Desktop\BlazorEcommerce\BlazorEcommerce\BlazorEcommerce\Server\bin\Debug\net6.0\Framework.Front.pdb

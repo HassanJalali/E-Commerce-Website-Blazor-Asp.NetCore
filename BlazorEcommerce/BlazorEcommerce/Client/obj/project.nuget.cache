@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RjZiowd2LwKt8I4ZKJ3NTKYjP0y1ibRq+6A9jmWmHjmsbteZpowMFdnA75qCAEVnxro1lN16/ZFjuy88xnJZ+w==",
+  "dgSpecHash": "zM9bCt1rZ5bTZSc8U1QofRL/932p9ZmGhHy0sxDrG0jyNwou0yHf67VQKFoDM/AgIOJWg7jNnbbTK5H5/hUxHw==",
   "success": true,
   "projectFilePath": "C:\\Users\\macbook\\Desktop\\BlazorEcommerce\\BlazorEcommerce\\BlazorEcommerce\\Client\\BlazorEcommerce.Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\macbook\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.4.0\\currietechnologies.razor.sweetalert2.5.4.0.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\microsoft.aspnetcore.components.6.0.10.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.10\\microsoft.aspnetcore.components.analyzers.6.0.10.nupkg.sha512",
