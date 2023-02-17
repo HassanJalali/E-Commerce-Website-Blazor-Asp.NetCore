@@ -55,6 +55,18 @@
           }
         }
       },
+      "CurrieTechnologies.Razor.SweetAlert2/5.4.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.10",
+          "Microsoft.AspNetCore.Components.Web": "6.0.10"
+        },
+        "runtime": {
+          "lib/net6.0/CurrieTechnologies.Razor.SweetAlert2.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -644,6 +656,27 @@
           }
         }
       },
+      "Syncfusion.Blazor.Core/20.4.0.50": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.10",
+          "Syncfusion.Licensing": "20.4.0.50",
+          "System.Text.Json": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.Blazor.Core.dll": {
+            "assemblyVersion": "20.4.0.50",
+            "fileVersion": "20.4.0.50"
+          }
+        }
+      },
+      "Syncfusion.Licensing/20.4.0.50": {
+        "runtime": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "20.4.0.50",
+            "fileVersion": "20.4.0.50"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {},
       "System.CodeDom/4.4.0": {
         "runtime": {
@@ -906,15 +939,26 @@
       "BlazorEcommerce.Client/1.0.0": {
         "dependencies": {
           "BlazorEcommerce.Shared": "1.0.0",
-          "Microsoft.AspNetCore.Components.WebAssembly": "6.0.10"
+          "CurrieTechnologies.Razor.SweetAlert2": "5.4.0",
+          "Framework.Front": "1.0.0",
+          "Microsoft.AspNetCore.Components.WebAssembly": "6.0.10",
+          "Syncfusion.Blazor.Core": "20.4.0.50"
         },
         "runtime": {
           "BlazorEcommerce.Client.dll": {}
         }
       },
       "BlazorEcommerce.Shared/1.0.0": {
+        "dependencies": {
+          "Framework.Front": "1.0.0"
+        },
         "runtime": {
           "BlazorEcommerce.Shared.dll": {}
+        }
+      },
+      "Framework.Front/1.0.0": {
+        "runtime": {
+          "Framework.Front.dll": {}
         }
       }
     }
@@ -938,6 +982,13 @@
       "sha512": "sha512-EycyMsb6rD2PK9P0SyibFfEhvWWttdrYhyPF4f41uzdB/44yQlV+2Wehxyg489Rj6gbPvSPgbKq0xsHJBhipZA==",
       "path": "azure.identity/1.6.0",
       "hashPath": "azure.identity.1.6.0.nupkg.sha512"
+    },
+    "CurrieTechnologies.Razor.SweetAlert2/5.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gDHNb0xG7+KNJ8DBSQXZb6ZF9YCMUK6EoUc6uQSPAduF8+QvJPxbRL0WjaMv/TtGuuj80QWlQPzD3noi9eddzQ==",
+      "path": "currietechnologies.razor.sweetalert2/5.4.0",
+      "hashPath": "currietechnologies.razor.sweetalert2.5.4.0.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -1352,6 +1403,20 @@
       "path": "swashbuckle.aspnetcore.swaggerui/6.5.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
     },
+    "Syncfusion.Blazor.Core/20.4.0.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nipAwbNUgFDL3xQFivEgH7h5pclF0mYr881Uaf1f9Ra05pfJ55byEKdjFdgsUyOI8RIzofqZaQCAzvVkMl6yjw==",
+      "path": "syncfusion.blazor.core/20.4.0.50",
+      "hashPath": "syncfusion.blazor.core.20.4.0.50.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/20.4.0.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aRLN72Z7/W2Sba7RdCyEzpTjdZvUmcVQpsFe0ACS04oDglNvAeqJ0k0zFM3pb8GRKZ3wf1MmfR2UJbc0KyYVaA==",
+      "path": "syncfusion.licensing/20.4.0.50",
+      "hashPath": "syncfusion.licensing.20.4.0.50.nupkg.sha512"
+    },
     "System.Buffers/4.5.1": {
       "type": "package",
       "serviceable": true,
@@ -1575,6 +1640,11 @@
       "sha512": ""
     },
     "BlazorEcommerce.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Framework.Front/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

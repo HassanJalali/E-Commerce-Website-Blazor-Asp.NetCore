@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ETl6461YGIxVPO9UF2LMCjjEx0fGS1ee5LsbwwH84X/SyeNnKYx7aOiwbXsegtv69HHh8HPdExYEaS/0IYvDTQ==",
+  "dgSpecHash": "pmuJJS33gCrANHg0KCpGmVE9mbnz2npxFar+zRT3Um/b1IEXoV2RTYL6TXbVouiefO+VMi605S0KJ88cwMbbDg==",
   "success": true,
   "projectFilePath": "C:\\Users\\macbook\\Desktop\\BlazorEcommerce\\BlazorEcommerce\\BlazorEcommerce\\Server\\BlazorEcommerce.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\macbook\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\macbook\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.4.0\\currietechnologies.razor.sweetalert2.5.4.0.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\microsoft.aspnetcore.components.6.0.10.nupkg.sha512",
@@ -65,6 +66,8 @@
     "C:\\Users\\macbook\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\macbook\\.nuget\\packages\\syncfusion.blazor.core\\20.4.0.50\\syncfusion.blazor.core.20.4.0.50.nupkg.sha512",
+    "C:\\Users\\macbook\\.nuget\\packages\\syncfusion.licensing\\20.4.0.50\\syncfusion.licensing.20.4.0.50.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",

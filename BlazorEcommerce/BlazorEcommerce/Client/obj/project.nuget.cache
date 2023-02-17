@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "r9THk9h/PXGVG/wx9uq4mKoce5tEl5M7dnMZpyAI0A5Ce8wvvCUyagzkwCoWuajycks/pJDYxhWABDC+LHYvmA==",
+  "dgSpecHash": "xDzUfoNWKksEzkEEiJyNL9gavO/6byJXuh1HQF2fV7ol+27R+gzAN514O5BtbFWCMZRhV2rKF85v74GVgfKd4g==",
   "success": true,
   "projectFilePath": "C:\\Users\\macbook\\Desktop\\BlazorEcommerce\\BlazorEcommerce\\BlazorEcommerce\\Client\\BlazorEcommerce.Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\macbook\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.4.0\\currietechnologies.razor.sweetalert2.5.4.0.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\microsoft.aspnetcore.components.6.0.10.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.10\\microsoft.aspnetcore.components.analyzers.6.0.10.nupkg.sha512",
@@ -28,6 +29,8 @@
     "C:\\Users\\macbook\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\microsoft.jsinterop\\6.0.10\\microsoft.jsinterop.6.0.10.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.10\\microsoft.jsinterop.webassembly.6.0.10.nupkg.sha512",
+    "C:\\Users\\macbook\\.nuget\\packages\\syncfusion.blazor.core\\20.4.0.50\\syncfusion.blazor.core.20.4.0.50.nupkg.sha512",
+    "C:\\Users\\macbook\\.nuget\\packages\\syncfusion.licensing\\20.4.0.50\\syncfusion.licensing.20.4.0.50.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\macbook\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
